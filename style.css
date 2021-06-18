@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    padding: 0%;
+    margin: auto;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: #BDE4E5 ;
+    padding: 1%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+header > h3 {
+    font-size: 2em;
+    font-family: Pacifico ;
+    margin: 0.5% auto;
+}
+
+header > nav > p > a{ 
+    font-weight: 900;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    transition-duration: 100ms;
+}
+header > nav > p > a:hover{
+    color: #CFA8E6 ;
+    font-size: 1.3em;
+}  
+#Mheader{
+    background-color: #E99F87 ;
+}
+
+main{
+    background-color: rgb(225, 225, 225);
+}
+
+article{
+    width: 70%;
+    margin:  1% auto;
+    text-align: justify;
+    padding: 2%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.296);
+
+}
+
+article > h1 {
+    color: #375780 ;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+article > h1 > a{
+    text-decoration: none;
+    font-weight: 900;
+    color:#68524f;
+}
+
+article > h1 > a:hover{
+    color:black;
+    text-decoration: overline;
+}
+article > p{
+    font-size: 1.5em;
+}
+div.imagem2{
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+}
+
+div.imagem2 > img {
+    width: 37%;
+    height: 15%;
+}
+.rgb{
+    font-weight: 900;
+
+}
+.olho{
+    color: #a5644b ;
+}
+.olho:hover{
+    font-size: 1.3em;
+    color: #643c2c ;
+    transition-duration: 100ms;
+}
+
+footer{
+    text-align: center;
+    padding: 0.1%;
+}
+@media(max-width : 661px ){
+    article > p{
+        font-size: 100%;
+    }
+    article >h1{
+        font-size: 150%;
+    }
+    
+}
+
+@media(max-width : 450px ){
+    article > p{
+        font-size: 90%;
+    }
+    article >h1{
+        font-size: 110%;
+    }
+}
+
+    
+
+
